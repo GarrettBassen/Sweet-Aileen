@@ -6429,7 +6429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "SweetAileen:Connector-Generic-3"
 			(at 67.31 147.32 0)
 			(hide yes)
 			(show_name no)
