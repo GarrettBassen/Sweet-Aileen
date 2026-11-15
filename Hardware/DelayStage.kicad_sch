@@ -4,6 +4,13 @@
 	(generator_version "10.0")
 	(uuid "ed6fd790-3a11-49e8-a36c-551041a15113")
 	(paper "A4")
+	(title_block
+		(title "Delay / Chorus Stage")
+		(date "2026-11-15")
+		(rev "A")
+		(company "Rattus Elektronisk")
+		(comment 1 "Garrett Bassen")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL072"
 			(pin_names
@@ -1972,7 +1979,18 @@
 		)
 		(uuid "bcb33514-47e1-4b29-bd4d-bc49f82cbd89")
 	)
-	(text "30 - 150 kHz"
+	(text "Ideally 40k pot,\nbut out of stock"
+		(exclude_from_sim no)
+		(at 79.756 142.748 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 118 118 118 1)
+			)
+		)
+		(uuid "033c4b52-f681-4e48-961b-bd8706ccab1f")
+	)
+	(text "17 - 150 kHz"
 		(exclude_from_sim no)
 		(at 79.502 163.322 0)
 		(effects
@@ -2073,6 +2091,18 @@
 			)
 		)
 		(uuid "f1b3486b-ffe2-43de-8063-e211989f467a")
+	)
+	(text "Clock noise risk \nwhen below 30 kHz"
+		(exclude_from_sim no)
+		(at 30.48 190.5 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "f2c3f9dd-7310-4b9a-b147-ca70f273c915")
 	)
 	(junction
 		(at 35.56 160.02)
@@ -4725,7 +4755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 147.32 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -5215,7 +5245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 101.6 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5471,7 +5501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 233.68 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5966,7 +5996,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 231.14 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6389,7 +6419,7 @@
 				)
 			)
 		)
-		(property "Value" "40k"
+		(property "Value" "47k"
 			(at 67.31 145.034 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9170,7 +9200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 128.27 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -10625,7 +10655,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 118.11 177.8 0)
 			(hide yes)
 			(show_name no)
