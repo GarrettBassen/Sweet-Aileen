@@ -8962,7 +8962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SweetAileen:Connector-Generic"
+		(property "Footprint" "SweetAileen:Connector-Generic-2"
 			(at 86.36 187.96 0)
 			(hide yes)
 			(show_name no)

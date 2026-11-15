@@ -1,4 +1,4 @@
-(footprint "Connector-Generic"
+(footprint "Connector-Generic-2"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2.38 0)
 		(layer "F.SilkS")
-		(uuid "47e0b95a-de66-4461-a26e-917797b31ae0")
+		(uuid "4da087eb-63c5-4e39-8a4f-67c8156f2d90")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "Connector-Generic"
+	(property "Value" "Connector-Generic-2"
 		(at 0 4.92 0)
 		(layer "F.Fab")
-		(uuid "a8575370-b9fe-4a9e-91a5-3c300fdf5655")
+		(uuid "f9b4ec24-bb13-41e2-b146-5e2771236a8f")
 		(effects
 			(font
 				(size 1 1)
@@ -31,29 +31,29 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3808bdd8-3c8a-48d0-9b56-a90ae5ed47c5")
+		(uuid "d2bc8f5b-d317-4e72-b08f-888540b47e30")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Generic 2 pin 2.54mm pitch through-hole connector"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0399641a-5fa7-4d8c-9336-838efcece7cf")
+		(uuid "c7046a1c-c4cc-445b-aaad-7473a85650c7")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "KiLib_Generator" "connector/pin_header_socket"
+	(property "KiLib_Generator" ""
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "848aac02-ab64-4b08-87ef-16695396e761")
+		(uuid "9252923c-d136-47f6-b667-a43c7bc23d90")
 		(effects
 			(font
 				(size 1 1)
@@ -71,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c15e8456-b37e-452e-8147-16a927993b18")
+		(uuid "c2c4690c-5ae6-4e24-9040-a489ea25dae4")
 	)
 	(fp_line
 		(start -1.38 0)
@@ -81,7 +81,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5fc3ce66-14f8-420c-9124-4ef4231124d4")
+		(uuid "8ec41574-4c98-4541-945d-4b2816c88528")
 	)
 	(fp_line
 		(start 0 3.92)
@@ -91,7 +91,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2ea6000f-e744-4cb0-af8e-e64820ac38d5")
+		(uuid "ab692904-3043-4e32-87d3-0488ef2610fa")
 	)
 	(fp_line
 		(start 1.38 3.92)
@@ -101,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e532af1d-a6dd-4580-8291-9cfc602917b7")
+		(uuid "897d9696-e116-49e3-81db-5600b8e58dc5")
 	)
 	(fp_rect
 		(start -1.77 -1.77)
@@ -112,62 +112,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "3d8c14c9-6da0-4f8b-82a6-1f893553df20")
-	)
-	(fp_line
-		(start -1.27 -0.635)
-		(end -0.635 -1.27)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "af34dd5d-8ec9-472a-8d62-79dcea0a032c")
-	)
-	(fp_line
-		(start -1.27 3.81)
-		(end -1.27 -0.635)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "26b96842-fb10-4934-a8af-e905f4b8a7b0")
-	)
-	(fp_line
-		(start -0.635 -1.27)
-		(end 1.27 -1.27)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "055de74a-fa76-4b4e-a7e2-649b08cd3b46")
-	)
-	(fp_line
-		(start 1.27 -1.27)
-		(end 1.27 3.81)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "7e836547-6f3f-4b5f-ad98-dfa5f781a6e2")
-	)
-	(fp_line
-		(start 1.27 3.81)
-		(end -1.27 3.81)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "51e1c138-75e7-43d9-bce3-20c972be2741")
+		(uuid "46b81a00-eed7-4eb1-a812-04bc64ca73fc")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 1.27 90)
 		(layer "F.Fab")
-		(uuid "fdfdd11d-153e-418a-ad8e-ddbf8653cada")
+		(uuid "767c0a66-cc08-454a-983f-eef9205754c2")
 		(effects
 			(font
 				(size 1 1)
@@ -181,7 +131,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "4d01b715-2794-403e-b3ed-c8e859536985")
+		(uuid "4e02aef6-9992-465b-90a2-d3d6c2411f6d")
 	)
 	(pad "2" thru_hole circle
 		(at 0 2.54)
@@ -189,7 +139,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "944b2124-929e-4b05-8baf-218f9db4398c")
+		(uuid "5f71fa99-00be-4028-9e31-e3a4d489ea98")
 	)
 	(embedded_fonts no)
 )
