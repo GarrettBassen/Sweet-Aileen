@@ -430,13 +430,17 @@
         "uuid": "70babb96-84dc-496b-8916-64ffb301a56c"
       }
     ],
-    "used_designators": "#FLG1-2,#PWR1-40,C1-18,D1,J1-5,JP1,R1-24,RV1-2,SW1,U1-5",
+    "used_designators": "#FLG1-2,#PWR1-42,C1-19,D1,J1-6,JP1-2,R1-26,RV1-2,SW1,U1-5",
     "variants": []
   },
   "sheets": [
     [
       "70babb96-84dc-496b-8916-64ffb301a56c",
       "SweetAileen"
+    ],
+    [
+      "e972cf9b-bb21-4a41-a3d1-83eba7aa876e",
+      "Delay Stage"
     ]
   ],
   "text_variables": {},
