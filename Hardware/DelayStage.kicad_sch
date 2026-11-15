@@ -4249,7 +4249,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 207.01 47.752 90)
 			(hide yes)
 			(show_name no)
@@ -4397,7 +4397,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.7k"
 			(at 224.536 117.602 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4407,7 +4407,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 222.758 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -4725,7 +4725,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm"
 			(at 147.32 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -4980,7 +4980,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 79.0448 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5215,7 +5215,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm"
 			(at 101.6 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5471,7 +5471,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm"
 			(at 233.68 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5568,7 +5568,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 31.75 148.2852 0)
 			(hide yes)
 			(show_name no)
@@ -5649,7 +5649,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 200.9648 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5807,7 +5807,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 64.77 41.402 90)
 			(hide yes)
 			(show_name no)
@@ -5886,7 +5886,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 181.61 48.5648 0)
 			(hide yes)
 			(show_name no)
@@ -5966,7 +5966,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm"
 			(at 231.14 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6063,7 +6063,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SweetAileen:SSI2100"
 			(at 147.32 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6160,7 +6160,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 205.74 101.092 90)
 			(hide yes)
 			(show_name no)
@@ -6399,7 +6399,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 67.31 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -6672,7 +6672,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 257.81 104.4448 0)
 			(hide yes)
 			(show_name no)
@@ -6751,7 +6751,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 231.14 26.162 90)
 			(hide yes)
 			(show_name no)
@@ -6984,7 +6984,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 205.74 109.982 90)
 			(hide yes)
 			(show_name no)
@@ -7224,7 +7224,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 148.8948 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7382,7 +7382,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 97.79 33.9852 0)
 			(hide yes)
 			(show_name no)
@@ -7619,7 +7619,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 196.85 47.752 90)
 			(hide yes)
 			(show_name no)
@@ -7700,7 +7700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 247.142 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -7769,7 +7769,7 @@
 				)
 			)
 		)
-		(property "Value" "57k"
+		(property "Value" "56k"
 			(at 74.93 40.894 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7779,7 +7779,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 74.93 41.402 90)
 			(hide yes)
 			(show_name no)
@@ -7858,7 +7858,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 87.63 41.402 90)
 			(hide yes)
 			(show_name no)
@@ -8095,7 +8095,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 55.88 54.9148 0)
 			(hide yes)
 			(show_name no)
@@ -8176,7 +8176,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SweetAileen:3314G-1_BRN"
 			(at 163.83 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8449,7 +8449,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 190.8048 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8609,7 +8609,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 123.4948 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8690,7 +8690,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 68.8848 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -8771,7 +8771,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 91.7448 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8850,7 +8850,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 219.71 47.752 90)
 			(hide yes)
 			(show_name no)
@@ -8932,7 +8932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SweetAileen:Connector-Generic"
 			(at 86.36 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -9011,7 +9011,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 186.69 47.752 90)
 			(hide yes)
 			(show_name no)
@@ -9090,7 +9090,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 96.52 19.812 90)
 			(hide yes)
 			(show_name no)
@@ -9170,7 +9170,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm"
 			(at 128.27 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9269,7 +9269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 31.242 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -9425,7 +9425,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 231.14 88.392 90)
 			(hide yes)
 			(show_name no)
@@ -9506,7 +9506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 121.92 184.4548 0)
 			(hide yes)
 			(show_name no)
@@ -9752,7 +9752,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 148.59 30.1752 0)
 			(hide yes)
 			(show_name no)
@@ -9833,7 +9833,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 25.7048 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -10227,7 +10227,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 232.41 40.3352 0)
 			(hide yes)
 			(show_name no)
@@ -10466,7 +10466,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 211.1248 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10545,7 +10545,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 118.11 43.942 90)
 			(hide yes)
 			(show_name no)
@@ -10625,7 +10625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm"
 			(at 118.11 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -10724,7 +10724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 151.13 184.4548 0)
 			(hide yes)
 			(show_name no)
@@ -10803,7 +10803,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 55.88 42.2148 0)
 			(hide yes)
 			(show_name no)
@@ -10884,7 +10884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 170.942 54.61 90)
 			(hide yes)
 			(show_name no)

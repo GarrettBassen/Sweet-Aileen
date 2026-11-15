@@ -380,12 +380,42 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -430,7 +460,7 @@
         "uuid": "70babb96-84dc-496b-8916-64ffb301a56c"
       }
     ],
-    "used_designators": "#FLG1-2,#PWR1-47,C1-22,D1,J1-6,JP1-2,R1-29,RV1-2,SW1,U1-5",
+    "used_designators": "#FLG1-3,#PWR1-47,C1-22,D1,J1-6,JP1-2,R1-29,RV1-2,SW1,U1-5",
     "variants": []
   },
   "sheets": [
@@ -441,6 +471,10 @@
     [
       "e972cf9b-bb21-4a41-a3d1-83eba7aa876e",
       "Delay Stage"
+    ],
+    [
+      "cd0a9bb8-631e-4ff7-bc7f-1588e92f281a",
+      "Tone Control"
     ]
   ],
   "text_variables": {},
