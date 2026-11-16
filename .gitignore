@@ -46,3 +46,7 @@ fp-info-cache
 *.log
 *.net
 *.raw
+
+# Fabrication files
+fab/
+fab.zip
