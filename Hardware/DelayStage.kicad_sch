@@ -284,6 +284,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -2129,6 +2252,18 @@
 		(uuid "2eb22580-3259-4046-9e8a-de46d2c5bef4")
 	)
 	(junction
+		(at 191.77 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "301d608e-4edd-4431-8cf8-a466dee5a776")
+	)
+	(junction
+		(at 191.77 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32e28473-416c-45d2-8e51-803bb78fadb2")
+	)
+	(junction
 		(at 82.55 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2582,7 +2717,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 78.74) (xy 194.31 102.87)
+			(xy 180.34 76.2) (xy 180.34 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2712,7 +2847,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 52.07) (xy 257.81 78.74)
+			(xy 257.81 52.07) (xy 257.81 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3232,13 +3367,23 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 102.87) (xy 201.93 102.87)
+			(xy 180.34 102.87) (xy 201.93 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8fa22f05-ea52-420a-b9f5-93fe14e86fd2")
+	)
+	(wire
+		(pts
+			(xy 191.77 101.6) (xy 191.77 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91fb5e43-5f1a-4ad4-8ef7-f479e2282e19")
 	)
 	(wire
 		(pts
@@ -3432,7 +3577,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 105.41) (xy 257.81 105.41)
+			(xy 257.81 105.41) (xy 262.89 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3442,7 +3587,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 78.74) (xy 194.31 78.74)
+			(xy 257.81 76.2) (xy 180.34 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3539,6 +3684,16 @@
 			(type default)
 		)
 		(uuid "bc11b4b1-35d6-4e9f-84b0-3a5091b825ce")
+	)
+	(wire
+		(pts
+			(xy 191.77 120.65) (xy 191.77 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfcbe97a-f61a-4eee-bb64-13c8ac54aa5b")
 	)
 	(wire
 		(pts
@@ -3812,6 +3967,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 110.49) (xy 191.77 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daca258c-2174-4f4b-b7a6-4310d97eb765")
+	)
+	(wire
+		(pts
 			(xy 77.47 191.77) (xy 77.47 190.5)
 		)
 		(stroke
@@ -4072,7 +4237,7 @@
 	)
 	(hierarchical_label "Signal_Out"
 		(shape output)
-		(at 261.62 105.41 0)
+		(at 262.89 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4646,6 +4811,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 191.77 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0fb0f794-9f8e-4e15-8998-a88cde7323de")
+		(property "Reference" "TP5"
+			(at 189.992 96.266 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 194.31 99.5679 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 196.85 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 191.77 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fff5e071-2dc8-428d-a1b5-fa8db47d1045")
+		)
+		(instances
+			(project "SweetAileen"
+				(path "/70babb96-84dc-496b-8916-64ffb301a56c/e972cf9b-bb21-4a41-a3d1-83eba7aa876e"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCOM")
 		(at 223.52 59.69 180)
 		(unit 1)
@@ -5130,6 +5374,85 @@
 			(project "SweetAileen"
 				(path "/70babb96-84dc-496b-8916-64ffb301a56c/e972cf9b-bb21-4a41-a3d1-83eba7aa876e"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 191.77 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1f2f4ad7-95c2-4ef0-9337-25db5a1e5ebc")
+		(property "Reference" "TP4"
+			(at 189.992 105.156 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 194.31 108.4579 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 196.85 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 191.77 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33899abd-0285-4a0a-9180-be5873d43945")
+		)
+		(instances
+			(project "SweetAileen"
+				(path "/70babb96-84dc-496b-8916-64ffb301a56c/e972cf9b-bb21-4a41-a3d1-83eba7aa876e"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -9169,6 +9492,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCOM")
+		(at 191.77 121.92 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c1c372db-063b-49ab-8460-856ee4ec3eea")
+		(property "Reference" "#PWR050"
+			(at 191.77 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCOM"
+			(at 191.77 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCOM\""
+			(at 191.77 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b635304d-2a9f-47cf-9656-444d07106297")
+		)
+		(instances
+			(project "SweetAileen"
+				(path "/70babb96-84dc-496b-8916-64ffb301a56c/e972cf9b-bb21-4a41-a3d1-83eba7aa876e"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TL072")
 		(at 128.27 111.76 0)
 		(unit 1)
@@ -9498,6 +9899,85 @@
 			(project "SweetAileen"
 				(path "/70babb96-84dc-496b-8916-64ffb301a56c/e972cf9b-bb21-4a41-a3d1-83eba7aa876e"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 191.77 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ccdeaff0-0c31-418b-bf96-7115adce98a0")
+		(property "Reference" "TP6"
+			(at 189.992 115.316 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 194.31 118.6179 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 196.85 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 191.77 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8c4309d-dda4-461a-9bbb-f038efedb9ef")
+		)
+		(instances
+			(project "SweetAileen"
+				(path "/70babb96-84dc-496b-8916-64ffb301a56c/e972cf9b-bb21-4a41-a3d1-83eba7aa876e"
+					(reference "TP6")
 					(unit 1)
 				)
 			)

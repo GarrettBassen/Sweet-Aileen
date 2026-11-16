@@ -1065,6 +1065,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:NCP718xSN500"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2091,8 +2214,8 @@
 		(uuid "0773c724-62db-495e-bf0c-c809a6d5cc1c")
 	)
 	(rectangle
-		(start 137.16 81.28)
-		(end 274.32 115.57)
+		(start 135.89 86.36)
+		(end 273.05 120.65)
 		(stroke
 			(width 0)
 			(type default)
@@ -2101,6 +2224,18 @@
 			(type none)
 		)
 		(uuid "364dbc01-082b-4688-924d-6d1c2f152f85")
+	)
+	(rectangle
+		(start 241.3 60.96)
+		(end 261.62 76.2)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "be94c413-e7c9-428d-b0b9-171507e6e155")
 	)
 	(text "+6V\nVirtual GND"
 		(exclude_from_sim no)
@@ -2126,7 +2261,7 @@
 	)
 	(text "Guitar Signal Path"
 		(exclude_from_sim no)
-		(at 155.448 78.74 0)
+		(at 154.178 83.82 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2135,6 +2270,18 @@
 			)
 		)
 		(uuid "5c89df4c-f3ca-4b80-9a15-ad1a09b2eb69")
+	)
+	(text "Mounting Holes"
+		(exclude_from_sim no)
+		(at 251.714 57.912 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "95564899-6462-4a32-af50-00c8968f73c0")
 	)
 	(text "Power Supply and Indicator"
 		(exclude_from_sim no)
@@ -2150,7 +2297,7 @@
 	)
 	(text "Guitar In"
 		(exclude_from_sim no)
-		(at 144.78 87.376 0)
+		(at 143.51 92.456 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2160,7 +2307,7 @@
 	)
 	(text "Guitar Out"
 		(exclude_from_sim no)
-		(at 266.7 92.456 0)
+		(at 265.43 97.536 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2198,7 +2345,7 @@
 		(uuid "3ecec6fe-137a-4956-a056-6fb614470375")
 	)
 	(junction
-		(at 205.74 97.79)
+		(at 204.47 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "435a9b2a-d077-44ed-a7cf-3f09c75b78d9")
@@ -2216,7 +2363,7 @@
 		(uuid "5a647032-c0f5-4673-a690-f58d691c526d")
 	)
 	(junction
-		(at 252.73 95.25)
+		(at 251.46 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68c358dd-c619-4b24-87ed-5d7b97aa6af2")
@@ -2256,12 +2403,20 @@
 		(uuid "08baf9ee-15bf-4dff-a7f4-c1367908d078")
 	)
 	(no_connect
+		(at 255.27 72.39)
+		(uuid "25cead0f-9bec-4ee9-b694-1af259f832b6")
+	)
+	(no_connect
 		(at 53.34 100.33)
 		(uuid "91b1bfc8-76d9-4f91-8249-a5c5015f4b30")
 	)
+	(no_connect
+		(at 246.38 72.39)
+		(uuid "9ce43cd6-25bd-4ce5-a7bc-17009645995d")
+	)
 	(wire
 		(pts
-			(xy 252.73 105.41) (xy 252.73 95.25)
+			(xy 251.46 110.49) (xy 251.46 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2291,7 +2446,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 100.33) (xy 257.81 100.33)
+			(xy 257.81 105.41) (xy 256.54 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2301,7 +2456,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 95.25) (xy 252.73 95.25)
+			(xy 217.17 100.33) (xy 251.46 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2311,7 +2466,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 95.25) (xy 259.08 95.25)
+			(xy 251.46 100.33) (xy 257.81 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2401,7 +2556,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 92.71) (xy 172.72 92.71)
+			(xy 168.91 97.79) (xy 171.45 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2411,7 +2566,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 87.63) (xy 205.74 87.63)
+			(xy 168.91 92.71) (xy 204.47 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2421,7 +2576,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 97.79) (xy 205.74 97.79)
+			(xy 200.66 102.87) (xy 204.47 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2461,7 +2616,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 97.79) (xy 208.28 97.79)
+			(xy 204.47 102.87) (xy 207.01 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2471,7 +2626,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 105.41) (xy 252.73 105.41)
+			(xy 247.65 110.49) (xy 251.46 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2481,7 +2636,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 92.71) (xy 172.72 97.79)
+			(xy 171.45 97.79) (xy 171.45 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2571,7 +2726,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 100.33) (xy 220.98 100.33)
+			(xy 217.17 105.41) (xy 219.71 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2581,7 +2736,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 105.41) (xy 223.52 105.41)
+			(xy 219.71 110.49) (xy 222.25 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2671,7 +2826,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 87.63) (xy 205.74 97.79)
+			(xy 204.47 92.71) (xy 204.47 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2711,7 +2866,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 105.41) (xy 257.81 100.33)
+			(xy 256.54 110.49) (xy 256.54 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2721,7 +2876,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 100.33) (xy 220.98 105.41)
+			(xy 219.71 105.41) (xy 219.71 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2761,7 +2916,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 95.25) (xy 153.67 95.25)
+			(xy 151.13 100.33) (xy 152.4 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2771,7 +2926,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 100.33) (xy 153.67 95.25)
+			(xy 152.4 105.41) (xy 152.4 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2781,7 +2936,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 90.17) (xy 160.02 90.17)
+			(xy 151.13 95.25) (xy 158.75 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2791,7 +2946,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 97.79) (xy 176.53 97.79)
+			(xy 171.45 102.87) (xy 175.26 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2892,7 +3047,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 100.33 0)
+		(at 152.4 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2903,7 +3058,7 @@
 		(fields_autoplaced yes)
 		(uuid "13fdfa6d-2c91-4aac-8246-2eb80b8f6f2e")
 		(property "Reference" "#PWR07"
-			(at 153.67 106.68 0)
+			(at 152.4 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2914,7 +3069,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 105.41 0)
+			(at 152.4 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2925,7 +3080,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 100.33 0)
+			(at 152.4 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2936,7 +3091,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 100.33 0)
+			(at 152.4 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2947,7 +3102,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 100.33 0)
+			(at 152.4 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2971,7 +3126,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Jack-DC")
-		(at 144.78 92.71 0)
+		(at 143.51 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2981,7 +3136,7 @@
 		(dnp no)
 		(uuid "15ee29ac-6697-4f51-a3eb-5492c62b36db")
 		(property "Reference" "J5"
-			(at 148.59 98.044 0)
+			(at 147.32 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2991,7 +3146,7 @@
 			)
 		)
 		(property "Value" "Jack-DC"
-			(at 144.78 86.36 0)
+			(at 143.51 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3002,7 +3157,7 @@
 			)
 		)
 		(property "Footprint" "SweetAileen:Connector-Generic-2"
-			(at 146.05 93.726 0)
+			(at 144.78 98.806 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3013,7 +3168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 93.726 0)
+			(at 144.78 98.806 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3024,7 +3179,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack"
-			(at 144.78 92.71 0)
+			(at 143.51 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3050,28 +3205,29 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 165.1 90.17 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 255.27 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1c5610ad-c21e-4fbf-b33d-affd06870b30")
-		(property "Reference" "SW2"
-			(at 165.1 85.09 0)
+		(uuid "1758298b-7367-47b9-9d47-c9b934de18fe")
+		(property "Reference" "H2"
+			(at 254 65.532 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_SPDT"
-			(at 165.1 83.82 0)
+		(property "Value" "MountingHole_Pad"
+			(at 257.81 69.8499 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3079,10 +3235,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SweetAileen:Connector-Generic-3"
-			(at 165.1 90.17 0)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
+			(at 255.27 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3093,7 +3250,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 97.79 0)
+			(at 255.27 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 255.27 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de269c35-01fd-4ad4-a20e-3117fea13792")
+		)
+		(instances
+			(project "SweetAileen"
+				(path "/70babb96-84dc-496b-8916-64ffb301a56c"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 163.83 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1c5610ad-c21e-4fbf-b33d-affd06870b30")
+		(property "Reference" "SW2"
+			(at 163.83 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 163.83 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SweetAileen:Connector-Generic-3"
+			(at 163.83 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3104,7 +3338,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 165.1 90.17 0)
+			(at 163.83 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4341,7 +4575,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Jack-DC")
-		(at 266.7 97.79 0)
+		(at 265.43 102.87 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4352,7 +4586,7 @@
 		(dnp no)
 		(uuid "a5608601-5e8a-42df-b9ae-b8b3994b0794")
 		(property "Reference" "J6"
-			(at 262.89 103.124 0)
+			(at 261.62 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4362,7 +4596,7 @@
 			)
 		)
 		(property "Value" "Jack-DC"
-			(at 266.7 91.44 0)
+			(at 265.43 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4373,7 +4607,7 @@
 			)
 		)
 		(property "Footprint" "SweetAileen:Connector-Generic-2"
-			(at 265.43 98.806 0)
+			(at 264.16 103.886 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4384,7 +4618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 98.806 0)
+			(at 264.16 103.886 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4395,7 +4629,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack"
-			(at 266.7 97.79 0)
+			(at 265.43 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5369,7 +5603,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 213.36 97.79 0)
+		(at 212.09 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5379,7 +5613,7 @@
 		(dnp no)
 		(uuid "d9c056b4-6c38-4cad-8f65-b88caa70a550")
 		(property "Reference" "SW3"
-			(at 213.36 92.71 0)
+			(at 212.09 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5389,7 +5623,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 213.36 91.44 0)
+			(at 212.09 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5400,7 +5634,7 @@
 			)
 		)
 		(property "Footprint" "SweetAileen:Connector-Generic-3"
-			(at 213.36 97.79 0)
+			(at 212.09 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5411,7 +5645,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 105.41 0)
+			(at 212.09 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5422,7 +5656,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 213.36 97.79 0)
+			(at 212.09 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5530,8 +5764,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 246.38 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df8ce508-6633-42e3-9798-410f2cba6329")
+		(property "Reference" "H1"
+			(at 245.11 65.532 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 248.92 69.8499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
+			(at 246.38 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 246.38 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "91cb5a57-6df2-4e34-a7a7-95e872e8ae56")
+		)
+		(instances
+			(project "SweetAileen"
+				(path "/70babb96-84dc-496b-8916-64ffb301a56c"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 257.81 105.41 0)
+		(at 256.54 110.49 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5543,7 +5856,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea805b67-35d5-41eb-a01d-e5d0c0db04fe")
 		(property "Reference" "#PWR019"
-			(at 257.81 111.76 0)
+			(at 256.54 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5554,7 +5867,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 110.49 0)
+			(at 256.54 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5565,7 +5878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 105.41 0)
+			(at 256.54 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5576,7 +5889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 105.41 0)
+			(at 256.54 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5587,7 +5900,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 105.41 0)
+			(at 256.54 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5689,7 +6002,7 @@
 		)
 	)
 	(sheet
-		(at 223.52 100.33)
+		(at 222.25 105.41)
 		(size 25.4 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5705,7 +6018,7 @@
 		)
 		(uuid "cd0a9bb8-631e-4ff7-bc7f-1588e92f281a")
 		(property "Sheetname" "Tone Control"
-			(at 223.52 99.6184 0)
+			(at 222.25 104.6984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5716,7 +6029,7 @@
 			)
 		)
 		(property "Sheetfile" "ToneControl.kicad_sch"
-			(at 223.52 111.0746 0)
+			(at 222.25 116.1546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5727,7 +6040,7 @@
 			)
 		)
 		(pin "Signal_In" input
-			(at 223.52 105.41 180)
+			(at 222.25 110.49 180)
 			(uuid "976df5bc-05ae-4074-8b3f-38e0b8eafcc9")
 			(effects
 				(font
@@ -5737,7 +6050,7 @@
 			)
 		)
 		(pin "Signal_Out" output
-			(at 248.92 105.41 0)
+			(at 247.65 110.49 0)
 			(uuid "dc8f3a68-56c0-49cc-b7dc-2f52441e2fac")
 			(effects
 				(font
@@ -5755,7 +6068,7 @@
 		)
 	)
 	(sheet
-		(at 176.53 92.71)
+		(at 175.26 97.79)
 		(size 25.4 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5771,7 +6084,7 @@
 		)
 		(uuid "e972cf9b-bb21-4a41-a3d1-83eba7aa876e")
 		(property "Sheetname" "Delay Stage"
-			(at 176.53 91.9984 0)
+			(at 175.26 97.0784 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -5782,7 +6095,7 @@
 			)
 		)
 		(property "Sheetfile" "DelayStage.kicad_sch"
-			(at 176.53 103.4546 0)
+			(at 175.26 108.5346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5793,7 +6106,7 @@
 			)
 		)
 		(pin "Signal_In" input
-			(at 176.53 97.79 180)
+			(at 175.26 102.87 180)
 			(uuid "65e82c11-70d5-4334-8794-e1ca294642d7")
 			(effects
 				(font
@@ -5803,7 +6116,7 @@
 			)
 		)
 		(pin "Signal_Out" output
-			(at 201.93 97.79 0)
+			(at 200.66 102.87 0)
 			(uuid "cfc88d7c-b567-408e-bfe6-2dc7b570275b")
 			(effects
 				(font
